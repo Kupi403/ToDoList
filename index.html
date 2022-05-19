@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <script src="https://kit.fontawesome.com/6f40eb39ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>to-do list</h1>
+            <div class="input-box">
+                <input type="text" class="input">
+                <button class="add-todo">add</button>
+            </div>
+            <p class="error"></p>
+        </div>
+        <h2>list:</h2>
+
+        <div class="todo-box">
+            
+        </div>
+
+
+        <template class="todo-template">
+            <div class="todo">
+                <div class="todo-content">
+                    <p class="todo-text"></p>
+                    <div class="todo-options">
+                        <button title="Done" class="todo-complete">✅</button>
+                        <button title="Edit" class="todo-edit">✍</button>
+                        <button title="Delete" class="todo-delete">❌</button>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
